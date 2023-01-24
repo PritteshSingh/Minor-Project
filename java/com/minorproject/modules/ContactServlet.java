@@ -65,7 +65,7 @@ public class ContactServlet extends HttpServlet {
 				props.put("mail.smtp.port", "465");
 				Session session = Session.getDefaultInstance(props, new javax.mail.Authenticator() {
 					protected PasswordAuthentication getPasswordAuthentication() {
-						return new PasswordAuthentication("projectminor011@gmail.com", "zksgtjzszrhtqswl");
+						return new PasswordAuthentication("projectminor011@gmail.com", "app-password");
 					}
 				});
 				
